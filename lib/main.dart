@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     return GestureDetector(
       behavior: HitTestBehavior.translucent,
       child: MaterialApp(
-        title: 'VIN',
+        title: 'Custom Map',
         theme: appTheme,
         debugShowCheckedModeBanner: false,
         home: SplashScreen(),
