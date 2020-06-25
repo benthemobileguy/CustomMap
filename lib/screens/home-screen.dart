@@ -23,7 +23,7 @@ class HomePagestate extends State<HomePage> {
     // TODO: implement build
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Custom Map"),
+        title: new Text("Nearby Places"),
         backgroundColor: primaryColor,
       ),
       body:_createContent(),
